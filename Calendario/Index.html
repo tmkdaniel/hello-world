@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <script src="jquery.min.js"></script>
+        <style>
+            body {
+                margin: 0;
+            }
+            .Corpo {
+                display: flex;
+            }
+            .Menu {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                top: 0;
+                width: 400px;
+                background: black;
+                padding: 20px;
+                color: white;
+            }
+            .CorpoCalendario {
+                flex: 1;
+                padding: 20px;
+            }
+            .DivMes {
+                border: 1px solid black;
+                padding: 20px;
+                width: 400px;
+                box-shadow: 0px 0px 5px gray;
+                margin-bottom: 20px;
+            }
+            .DivMes div {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            .TableMes, .TableMes th, .TableMes td {
+                border: 1px solid black;
+            }
+            .TableMes {
+                border-collapse: collapse;
+                margin: 0;
+                width: 100%;
+                table-layout: fixed; 
+                font-size: 20px;
+            }
+            .TableMes th, .TableMes td {
+                text-align: center;
+            }
+            .TableMes td.TdSelecionavel:hover {
+                background-color: aqua;
+            }
+            .TableMes td.TdSelecionavel:active {
+                background-color: blue;
+            }
+        </style>
+        <script>
+            //GERAIS
+            Date.prototype.ddmmyyyy = function() {
+                var mm = this.getMonth() + 1; // getMonth() is zero-based
+                var dd = this.getDate();
+
+                return (dd>9 ? '' : '0') + dd + "/" + (mm>9 ? '' : '0') + mm + "/" + this.getFullYear();
+            };
+        </script>
+        
+        
+        <script>
+            "use strict";
+            
+            //GLOBAIS
+            var ano;
+            var vMeses;
+            var vDiaSem;
+        </script>
+        <script>
+            //CLASSSES
+            class Calendario {
+                constructor(data) {
+                    this.Data = data;
+                }
+                get MesInt() { return this.Data.getMonth(); }
+                get Mes()    { return vMeses[this.Data.getMonth()]; }
+                get Ano()    { return this.Data.getFullYear(); }
+                get Tabela() {
+                    let retorno = "<div class='DivMes'><div>" +  this.Mes + "/" + this.Ano + "</div><table class='TableMes'><tbody>";
+
+                    
+                    //Obtem Dias no mes atual
+                    let maxDias = 32 - new Date(this.Ano, this.MesInt, 32).getDate();
+                    
+                    
+                    
+                    //Adiciona cabecalho
+                    retorno  += "<tr>";
+                    for (let item of vDiaSem)
+                        retorno += "<td>" + item.substr(0,3) + "</td>";
+                    retorno  += "</tr>";
+                    
+                    
+                    //Adiciona dias
+                    retorno  += "<tr>";
+                    let semAtual = 0;
+                    for (let i = 0; i < maxDias; i++)
+                    {
+                        let aeee = new Date(this.Ano, this.MesInt, (i + 1));
+                        let objMeu = new MeuData(aeee);
+                        if (objMeu.DiaSemana == semAtual)
+                            retorno += "<td class='TdSelecionavel' onclick='MostaSelecao(this);' meuInfo='" + objMeu.ParaJson  + "'>" + (i + 1) + "</td>";
+                        else
+                        {
+                            retorno += "<td></td>";
+                            i--;
+                        }
+                        semAtual++;
+                        if (semAtual == 7)
+                        {
+                            retorno += "</tr><tr>";
+                            semAtual = 0;
+                        }
+                    }
+                    retorno  += "</tr>";
+                    
+                    
+                    
+                    //Finaliza
+                    retorno += "</tr></tbody></table>";
+                    
+                    return retorno;
+                }
+            }
+            class MeuData {
+                constructor (data) {
+                    this.Data = data;
+                }
+                get DataString() { return this.Data.ddmmyyyy(); }
+                get DiaSemana() { return this.Data.getDay(); }
+                get ParaJson() { return JSON.stringify(this); }
+            }
+        </script>
+        <script>
+            function IniciaBase() {
+                ano         = new Date().getFullYear();
+                vMeses      = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+                vDiaSem     = ["Domingo","Segunda-Feira","Terça-Feria","Quarta-Feria","Quinta-Feria","Sexta-Feria","Sábado"];
+                vFeriado    = [
+                                {Data = new Date()}
+                              ]
+            }
+            
+            function MontaCalendario() {
+                let vClass = [];
+                for (let i = 0; i < 12; i++)
+                {
+                    vClass[i] = new Calendario(new Date(ano, i));
+                }
+                
+                //TESTE
+                vClass.forEach((value) => 
+                {
+                    $("#DivCalendario").append(value.Tabela);
+                });
+            }
+            function MostaSelecao(item) {
+                
+                let json    = item.getAttribute("meuInfo");
+                let  obj    = JSON.parse(json);
+                let meuInfo = new MeuData(new Date(obj.Data));
+                $('#lblDiaSel').text(meuInfo.DataString);
+            }
+        </script>
+    </head>
+    <body>
+        <div class="Corpo">
+            <div class="CorpoCalendario">
+                <h1>Calendário</h1>
+                <h2 id="TituloAno"></h2>
+                <div id="DivCalendario"></div>
+            </div>
+        </div>
+        <div class="Menu">
+                <h1>Menu</h1>
+                <div>Item Selecionado: <span id="lblDiaSel"></span></div>
+            </div>
+        
+
+        <script>
+            IniciaBase();
+            MontaCalendario();
+            $("#TituloAno").text("Ano de " + ano);
+        </script>
+    </body>
+</html>
