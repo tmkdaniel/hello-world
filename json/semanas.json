@@ -1,0 +1,12 @@
+{
+    [
+        { "Nome" : "Domingo" },
+        { "Nome" : "Segunda-Feira" },
+        { "Nome" : "Terça-Feira" },
+        { "Nome" : "Quarta-Feira" },
+        { "Nome" : "Quinta-Feira" },
+        { "Nome" : "Sexta-Feira" },
+        { "Nome" : "Sábado" },
+        { "Nome" : "Domingo" }
+    ]
+}
