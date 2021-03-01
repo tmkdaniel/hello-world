@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery.min.js"></script>
+        <script>
+            "use strict";
+            function ClickUpper()
+            {
+                var textoUp = $("textArea")[0];
+                textoUp.value = textoUp.value.toUpperCase();
+            }
+            function Copia() 
+            {
+                //var copyText = document.getElementsByTagName("textArea")[0];
+                var copyText = $("textArea")[0];
+
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+                document.execCommand("copy");
+            }
+            function Tam() 
+            {
+                //var copyText = document.getElementsByTagName("textArea")[0];
+                var texto = $("textArea")[0].value;
+                var tam  = $("#Tam");
+                
+                tam.text(texto.length);
+            }
+        </script>
+    </head>
+    <body>
+        <textArea rows="20" cols="80" onkeyup="Tam()"></textArea>
+        <br/>
+        <span id="Tam"></span>
+        <br/>
+        <button onclick="ClickUpper()">ToUpper</button>
+        <button onclick="Copia()">Copia</button>
+    </body>
+</html>
