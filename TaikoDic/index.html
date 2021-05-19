@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <script src="dados.js"></script>
+    </head>
+    <body>
+        <span>Filtros: </span><br>
+        <select id="selMusicas">
+            <option value="">Todos</option>
+            <option value="EU">Eu</option>
+            <option value="ABUJAMA">Abujama</option>
+            <option value="ACHAMEGUA">Achamgua</option>
+            <option value="AKAINKO">Akainko</option>
+            <option value="ARYU NOISE">Aryu Noise</option>
+            <option value="ARYU NOISE 2">Aryu Noise 2</option>
+            <option value="ASADOYA">Asadoya</option>
+            <option value="ASADOYA SHIN">Asadoya Shin</option>
+            <option value="ASHIBINA">Ashibina</option>
+            <option value="AWASE">Awase</option>
+            <option value="AYAGU">Ayagu</option>
+            <option value="BILLIE JEAN">Billie Jean</option>
+            <option value="BU NO MAI">Bu no Mai</option>
+            <option value="BU NO MAI 2">Bu no Mai 2</option>
+            <option value="CHIBARYO">Chibaryo</option>
+            <option value="CHIKYU KYODAI">Chikyu Kyodai</option>
+            <option value="CHUNJUN NAGARI">Chunjun Nagari</option>
+            <option value="DANJU KARIYUSHI">Danju Kariyushi</option>
+            <option value="EGAO NO MAMA">Egao no Mama</option>
+            <option value="EISA NO YORU">Eisa no Yoru</option>
+            <option value="EISA SHINKA">Eisa Shinka</option>
+            <option value="FUSHINUUAKI">Fushinuuaki</option>
+            <option value="GOKOKU HOJO">Gokoku Hojo</option>
+            <option value="HANA WA SAKU">Hana wa Saku</option>
+            <option value="HORAI">Horai</option>
+            <option value="ICHIGO MAITA">Ichigo Maita</option>
+            <option value="ICHARIBA YUI">Ichariba Yui</option>
+            <option value="JIN JIN">Jin Jin</option>
+            <option value="JITUBIDOI">Jitubidoi</option>
+            <option value="KACHIPAI">Kachipai</option>
+            <option value="KAERU BASHO">Kaeru Basho</option>
+            <option value="KAGIYADEFU">Kagiyadefu</option>
+            <option value="KAMI GAMI">Kami Gami</option>
+            <option value="KARAHAI">Karahai</option>
+            <option value="KARIYUSHI NO YORU">Kariyushi no Yoru</option>
+            <option value="KAZE NO YUIBITOI">Kaze no Yuibitoi</option>
+            <option value="KAZE UTA">Kaze Uta</option>
+            <option value="KOTORI">Kotori</option>
+            <option value="KUDAKA MANJUSU">Kudaka Manjusu</option>
+            <option value="MAKAIGA">Makaiga</option>
+            <option value="MAMITOOMA">Mamimoota</option>
+            <option value="MEDETAISA">Medetaisa</option>
+            <option value="MENU HAMA">Menu Hama</option>
+            <option value="MINATOMA">Minatoma</option>
+            <option value="MIRUKUMUNARI">Mirukumunari</option>
+            <option value="NAO SEI">Nao Sei</option>
+            <option value="NENJU KUDUSHI">Nenju Kudushi</option>
+            <option value="NIRAI KANAI">Mirai Kanai</option>
+            <option value="NUCHIDU">Nuchidu</option>
+            <option value="OOTSUNAHIKI">Ootsunahiki</option>
+            <option value="ORION BIRU">Orion Biru</option>
+            <option value="OYAKE">Oyake</option>
+            <option value="RAN">Ran</option>
+            <option value="ROKUSHO BUSHI">Rokusho Bushi</option>
+            <option value="RYU JIN">Ryu Jin</option>
+            <option value="RYUKYU ONDO">Ryukyu oOndo</option>
+            <option value="SANSHIN NO HANA">Sanshin no Hana</option>
+            <option value="SHI SHI GONG GONG">Shi Shi Gong Gong</option>
+            <option value="SHICHIGUACHI BUSHI">Shichiguachi Bushi</option>
+            <option value="SHICHIGUACHI EISA MACHIKANTI">Shichiguachi Eisa Machikanti</option>
+            <option value="SHIMA UTA">Shima Uta</option>
+            <option value="SHIMANCHU NO TAKARA">Shimanchu no Takara</option>
+            <option value="SHINKANUCHA">Shinkanucha</option>
+            <option value="SMOKE ON THE WATER">Smoke on the Water</option>
+            <option value="SOU SEI">Sou sei</option>
+            <option value="STREET STORY">Street Story</option>
+            <option value="SURI WA GARI">Suri wa gari</option>
+            <option value="TACHIUTUSHI">Tachiutushi</option>
+            <option value="TACHIUTUSHI 2">Tachiutushi 2</option>
+            <option value="TAKANA BUSHI">Takana Bushi</option>
+            <option value="TEN YO BUSHI">Ten Yo Bushi</option>
+            <option value="TENKEI">Tenkei</option>
+            <option value="TOKI WO KOE">Toki wo Koe</option>
+            <option value="TOSHINDOI">Toshindoi</option>
+            <option value="TUISASHIME">Tuisashime</option>
+            <option value="UFUTSUKI">Ufutsuki</option>
+            <option value="UMI NO KOE">Umi no Koe</option>
+            <option value="UMI YAKARA">Umi Yakara</option>
+            <option value="UNLOCK">Unlok</option>
+            <option value="URUMA MELODY">Uruma Melody</option>
+            <option value="WAIDO">Waido</option>
+            <option value="WASHI NU TUI">Washi nu Tui</option>
+            <option value="YOSAKOI">Yosakoi</option>
+            <option value="YOSAKOI 2">Yosakoi 2</option>
+            <option value="YOTSUDAKE">Yotsudake</option>
+            <option value="YUSHA">Yusha</option>
+          </select>
+        <br>
+        <select id="selInstrumentos">
+            <option value="">Todos</option>
+            <option value="BO ONNA">Bo Onna</option>
+            <option value="BO OTOKO">Bo Otoko</option>
+            <option value="ESPADA ONNA">Espada Onna</option>
+            <option value="KATA ONNA">Kata Onna</option>
+            <option value="KATA OTOKO">Kata Otoko</option>
+            <option value="ODAIKO">Odaiko</option>
+            <option value="ODORI">Odori</option>
+            <option value="OGI">Ogi</option>
+            <option value="ONI">Oni</option>
+            <option value="PARANKU">Paranku</option>
+            <option value="PAUZINHO">Pauzinho</option>
+            <option value="SAMBA">Samba</option>
+            <option value="SHIME">Shime</option>
+            <option value="YOSAKOI">Yosakoi</option>
+          </select>
+        <br>
+        <input type="button" style="padding: 10px;" value="Busca" onclick="Teste()">
+        <ol id="minhaLista">
+            
+        </ol>
+        
+        <script>
+            function Teste()
+            {
+                //Todos
+                let lstCoreo = bd.links;
+                let musica = "";
+                let instrumento = "";
+                
+                //Verifica Musica
+                var filtraMusica = false;
+                let buscaMusica = document.getElementById("selMusicas").value;
+                if (buscaMusica != "")
+                {
+                    filtraMusica = true;
+                    musica = bd.musicas.find(a => a.nome.includes(buscaMusica));
+                    if (musica == undefined)
+                    {
+                        alert("Não foi encontrado música com esse nome!");
+                        return;
+                    }
+                }
+                
+                
+                
+                //Verifica Instrumento
+                var filtraInstrumento = false;
+                let buscaInstrumento = document.getElementById("selInstrumentos").value;
+                if (buscaInstrumento != "")
+                {
+                    filtraInstrumento = true;
+                    instrumento = bd.instrumentos.find(a => a.nome.includes(buscaInstrumento));
+                    if (instrumento == undefined)
+                    {
+                        alert("Não foi encontrado instrumento com esse nome!");
+                        return;
+                    }
+                }
+                
+                //Cria filtro
+                if (filtraMusica && filtraInstrumento)
+                    lstCoreo = lstCoreo.filter(a => a.musicas.filter(b => b.idMusica == musica.id && b.instrumentos.filter(c => c == instrumento.id).length > 0).length > 0);  
+                else if (filtraMusica)
+                    lstCoreo = lstCoreo.filter(a => a.musicas.filter(b => b.idMusica == musica.id).length > 0);  
+                else if (filtraInstrumento)
+                    lstCoreo = lstCoreo.filter(a => a.musicas.filter(b => b.instrumentos.filter(c => c == instrumento.id).length > 0).length > 0);  
+                
+                
+                //Monta Lista
+                let retorno = "";
+                for (let  i = 0; i < lstCoreo.length; i++)
+                {
+                    //retorno += "<li><a style='margin-right: 25px;' href='" + lstCoreo[i].link + "'>" + lstCoreo[i].link + "</a><span>" + lstCoreo[i].descricao + "</span></li>";
+                    retorno += "<li><a style='margin-right: 25px;' href='" + lstCoreo[i].link + "'>" + lstCoreo[i].link + "</a><span>" + lstCoreo[i].descricao + "</span>";
+                    retorno += "<ul>";
+                    for (let  j = 0; j < lstCoreo[i].musicas.length; j++)
+                    {
+                        let tempMusica = bd.musicas.find(a => a.id == lstCoreo[i].musicas[j].idMusica);
+                        let tempInstrumento = bd.instrumentos.filter(a => lstCoreo[i].musicas[j].instrumentos.includes(a.id));
+                        retorno += "<li><a style='margin-right: 25px;' target='_blank' href='" + lstCoreo[i].link + "&t=" + lstCoreo[i].musicas[j].segundo + "'>" + tempMusica.nome + "</a><span >" + tempInstrumento.map(a => a.nome).toString() + "</span></li>";
+                    }
+                    
+                    retorno += "</ul></li>";
+                }
+                
+                document.getElementById("minhaLista").innerHTML = retorno;
+            }
+        </script>
+    </body>
+</html>
