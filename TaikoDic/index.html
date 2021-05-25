@@ -1,6 +1,7 @@
 <html>
     <head>
         <script src="dados.js"></script>
+        <script src="MinhaBiblioteca.js"></script>
     </head>
     <body>
         <span>Filtros: </span><br>
@@ -53,7 +54,7 @@
             <option value="MIRUKUMUNARI">Mirukumunari</option>
             <option value="NAO SEI">Nao Sei</option>
             <option value="NENJU KUDUSHI">Nenju Kudushi</option>
-            <option value="NIRAI KANAI">Mirai Kanai</option>
+            <option value="NIRAI KANAI">Nirai Kanai</option>
             <option value="NUCHIDU">Nuchidu</option>
             <option value="OOTSUNAHIKI">Ootsunahiki</option>
             <option value="ORION BIRU">Orion Biru</option>
@@ -61,7 +62,7 @@
             <option value="RAN">Ran</option>
             <option value="ROKUSHO BUSHI">Rokusho Bushi</option>
             <option value="RYU JIN">Ryu Jin</option>
-            <option value="RYUKYU ONDO">Ryukyu oOndo</option>
+            <option value="RYUKYU ONDO">Ryukyu Ondo</option>
             <option value="SANSHIN NO HANA">Sanshin no Hana</option>
             <option value="SHI SHI GONG GONG">Shi Shi Gong Gong</option>
             <option value="SHICHIGUACHI BUSHI">Shichiguachi Bushi</option>
@@ -112,13 +113,15 @@
             <option value="YOSAKOI">Yosakoi</option>
           </select>
         <br>
-        <input type="button" style="padding: 10px;" value="Busca" onclick="Teste()">
+        <input type="button" style="padding: 10px;" value="Busca" onclick="Buscar()">
+        <input type="button" style="padding: 10px;" value="Novo" onclick="Novo()">
         <ol id="minhaLista">
             
         </ol>
+        <div id="checkboxes">
         
         <script>
-            function Teste()
+            function Buscar()
             {
                 //Todos
                 let lstCoreo = bd.links;
@@ -182,6 +185,113 @@
                 }
                 
                 document.getElementById("minhaLista").innerHTML = retorno;
+            }
+            
+            
+            function Novo()
+            {
+                let div = document.createElement("div");
+                div.style = "width: 500px; height: 600px; box-shadow: 0px 0px 10px grey;  z-index: 10; position: fixed; top: 50%; left: 50%;  transform: translate(-50%, -50%); padding: 20px;";
+                let inner = "<h3>Novo</h3>";
+                inner += "<span style='float: left; width: 70px;'>Link:</span><input type='text' id='txtLink' style='width: 200px;'>";
+                inner += "<input type='button' style='padding: 10px;' value='Checa' onclick='ChecaLink()'><br>";
+                inner += "<span style='float: left; width: 70px;'>Descrição:</span><input type='text' id='txtDescricao' style='width: 200px;'><br><br>";
+                inner += "<span style='float: left; width: 70px;'>Musicas:</span><select id='selNovoMusica'>";
+                for (let  i = 0; i < bd.musicas.length; i++)
+                    inner += "<option value='" + bd.musicas[i].id + "'>" + bd.musicas[i].nome + "</option>";
+                inner += "</select><br>";
+                inner += "<span style='float: left; width: 70px;'>Segundo:</span><input type='text' id='txtSegundo' style='width: 200px;'><br>";
+                inner += "<ul style='list-style-type: none;  margin: 0;  padding-left: 70px;'>";
+                for (let  i = 0; i < bd.instrumentos.length; i++)
+                    inner += "<li><input type='checkbox' id='chk" + bd.instrumentos[i].id + "'>" + bd.instrumentos[i].nome + "</li>";
+                inner += "</ul><br>";
+                inner += "<input type='button' style='padding: 10px; margin-left: 70px;' value='Adicionar Musica' onclick='AddMusica()'>";
+                inner += "<input type='button' style='padding: 10px;' value='Checa' onclick='Checa()'>";
+                inner += "<input type='button' style='padding: 10px;' value='Limpa' onclick='Limpa()'><br><br>";
+                inner += "<input type='button' style='padding: 10px; width: 100%;' value='CriarJson' onclick='CriarJson()'>";
+
+                
+                
+                div.innerHTML = inner;
+                document.body.appendChild(div);
+            }
+            
+            var musicas = []
+            function AddMusica()
+            {
+                let musica  = document.getElementById("selNovoMusica").value;
+                let segundo = document.getElementById("txtSegundo").value;
+                
+                //Valida segundo
+                if (!isNumber(segundo))
+                {
+                    alert("Segundo precisa ser um número inteiro");
+                    return;
+                }
+                
+                //Cria musicas
+                musicas.push({idMusica: musica, segundo: segundo, instrumentos: [] });
+                
+                //Adiciona instrumentos
+                for (let  i = 0; i < bd.instrumentos.length; i++)
+                    if(document.getElementById("chk" + bd.instrumentos[i].id).checked)
+                        musicas[musicas.length - 1].instrumentos.push(bd.instrumentos[i].id);
+            }
+            
+            function Checa()
+            {
+                alert(JSON.stringify(musicas));
+            }
+            
+            function Limpa()
+            {
+                musicas = []
+            }
+            
+            
+            function ChecaLink()
+            {
+                let tempLink = document.getElementById("txtLink").value.trim();
+                if (LinkJaExiste(tempLink))
+                    alert("Já existe o link");
+                else
+                    alert("Não tem o link");
+            }
+            
+            function CriarJson()
+            {
+                var retorno = {};
+                let tempLink = document.getElementById("txtLink").value.trim();
+                let tempDesc = document.getElementById("txtDescricao").value.trim();
+                
+                
+                //Valida
+                if (LinkJaExiste(tempLink))
+                {
+                    alert("Já existe o link");
+                    return;
+                }
+                
+                
+                //Monta
+                retorno.link        = tempLink;
+                retorno.descricao   = tempDesc;
+                retorno.musicas     = musicas;
+                
+                
+                
+                alert(JSON.stringify(retorno));
+                copyToClipboard(JSON.stringify(retorno));
+                
+            }
+            
+            
+            function LinkJaExiste(searchValue) 
+            {
+                if (bd.links.filter(a => a.link == searchValue).length > 0)
+                    return true;
+                else
+                    return false;
             }
         </script>
     </body>
