@@ -87,7 +87,9 @@ var bd =
             { id: 84, nome: "YOSAKOI 2" },
             { id: 85, nome: "YOTSUDAKE" },
             { id: 86, nome: "YUSHA" },
-            { id: 87, nome: "ICHIGO MAITA" }
+            { id: 87, nome: "ICHIGO MAITA" },
+            { id: 88, nome: "HANA MATSURI" },
+            { id: 89, nome: "DAN DAN" },
             
         ],
         instrumentos:
@@ -105,7 +107,9 @@ var bd =
             { id: 11, nome: "PAUZINHO" },
             { id: 12, nome: "SAMBA" },
             { id: 13, nome: "SHIME" },
-            { id: 14, nome: "YOSAKOI" }
+            { id: 14, nome: "YOSAKOI" },
+            { id: 15, nome: "CLIPE" },
+            { id: 16, nome: "TRADUCAO" }
         ],
         links: 
         [
@@ -467,7 +471,38 @@ var bd =
             {"link":"https://youtu.be/_Gcm9kL8eIw","descricao":"aaaa","musicas":[{"idMusica":1,"segundo":400,"instrumentos":[6]}]},
             {"link":"https://youtu.be/7ADMnuTUuUQ","descricao":"Gueinosai 2019","musicas":[{"idMusica":30,"segundo":190,"instrumentos":[6,13]},{"idMusica":22,"segundo":420,"instrumentos":[6,13]}]},
             {"link":"https://youtu.be/I0YG45-JYrg","descricao":"aaaa","musicas":[{"idMusica":37,"segundo":0,"instrumentos":[6,10]}]},
-            {"link":"https://youtu.be/M0spzXPcBkU","descricao":"aaaa","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,10]}]}
+            {"link":"https://youtu.be/M0spzXPcBkU","descricao":"aaaa","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/bGgbC6d5xB4","descricao":"aaaa","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/oZ8Ikiel-B4","descricao":"aaaa","musicas":[{"idMusica":"18","segundo":"0","instrumentos":[6,10,13]},{"idMusica":"39","segundo":"150","instrumentos":[6,10,13]},{"idMusica":"71","segundo":"210","instrumentos":[6,10,13]},{"idMusica":"74","segundo":"330","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/1bveyB_oo_4","descricao":"Apre","musicas":[{"idMusica":"4","segundo":"0","instrumentos":[6,13]}]},
+            {"link":"https://youtu.be/tuDWAp0_HjU","descricao":"Apre","musicas":[{"idMusica":"33","segundo":"50","instrumentos":[6,10,13]},{"idMusica":"24","segundo":"260","instrumentos":[6,10,13]},{"idMusica":"80","segundo":"640","instrumentos":[6,10]},{"idMusica":"63","segundo":"950","instrumentos":[6]},{"idMusica":"56","segundo":"1350","instrumentos":[6,10]},{"idMusica":"79","segundo":"1615","instrumentos":[6]}]},
+            {"link":"https://youtu.be/XxEKkOVJlVc","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/G32Tjo3oNhU","descricao":"Show","musicas":[{"idMusica":"21","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/Gz383j12wOg","descricao":"Apre","musicas":[{"idMusica":"20","segundo":"90","instrumentos":[6,10]},{"idMusica":"27","segundo":"690","instrumentos":[6,10]},{"idMusica":"47","segundo":"960","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/4brILoTlUPA","descricao":"Show","musicas":[{"idMusica":"2","segundo":"80","instrumentos":[6,11]}]},
+            {"link":"https://youtu.be/ldoc9oGqd38","descricao":"Show","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/u8pzjvTexZk","descricao":"Show","musicas":[{"idMusica":"82","segundo":"200","instrumentos":[6]}]},
+            {"link":"https://youtu.be/rk7j-wVsy2M","descricao":"Apre","musicas":[{"idMusica":"52","segundo":"30","instrumentos":[6]}]},
+            {"link":"https://youtu.be/747DnWua5OY","descricao":"Apre","musicas":[{"idMusica":"45","segundo":"270","instrumentos":[4,6,13]},{"idMusica":"46","segundo":"600","instrumentos":[6,10,13]},{"idMusica":"63","segundo":"890","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/gmqhFHs85S0","descricao":"Apre","musicas":[{"idMusica":"26","segundo":"0","instrumentos":[13]},{"idMusica":"78","segundo":"240","instrumentos":[6]}]},
+            {"link":"https://youtu.be/pktk6hZyR18","descricao":"Apre","musicas":[{"idMusica":"18","segundo":"30","instrumentos":[6]}]},
+            {"link":"https://youtu.be/M_tdrQsApCg","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/p_O7y-fzqqU","descricao":"Apre","musicas":[{"idMusica":"18","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/zJi6_RMGNcI","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"80","instrumentos":[6]}]},
+            {"link":"https://youtu.be/eQBLAGIQFuA","descricao":"Apre","musicas":[{"idMusica":"11","segundo":"0","instrumentos":[7]},{"idMusica":"18","segundo":"230","instrumentos":[7]},{"idMusica":"67","segundo":"445","instrumentos":[7]},{"idMusica":"71","segundo":"450","instrumentos":[7]},{"idMusica":"74","segundo":"530","instrumentos":[7]}]},
+            {"link":"https://youtu.be/8DMBKqVPbTM","descricao":"Apre","musicas":[{"idMusica":"16","segundo":"60","instrumentos":[6,10,13]},{"idMusica":"33","segundo":"320","instrumentos":[6,10,13]},{"idMusica":"8","segundo":"540","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/n_V2j7PeLkw","descricao":"Apre","musicas":[{"idMusica":"77","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/FOlqERS7fnc","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,13]},{"idMusica":"45","segundo":"290","instrumentos":[6,10,13]},{"idMusica":"20","segundo":"540","instrumentos":[6,10,13]},{"idMusica":"24","segundo":"865","instrumentos":[6,10,13]},{"idMusica":"47","segundo":"1110","instrumentos":[6,10,13]}]},
+            {"link":"https://www.youtube.com/watch?v=9BRUxrvEwmw","descricao":"Apre","musicas":[{"idMusica":"45","segundo":"230","instrumentos":[4,6,10]},{"idMusica":"21","segundo":"600","instrumentos":[6,10]},{"idMusica":"47","segundo":"910","instrumentos":[6,10,13]},{"idMusica":"54","segundo":"1080","instrumentos":[6,7,10,13]}]},
+            {"link":"https://youtu.be/zrFvzpIzmq0","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,13]}]},
+            {"link":"https://youtu.be/wVHrduYu4iU","descricao":"Show","musicas":[{"idMusica":"21","segundo":"0","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/JvObKqY7FVU","descricao":"CampoGrande","musicas":[{"idMusica":"45","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/w_n4IAVYc9k","descricao":"CampoGrande","musicas":[{"idMusica":"68","segundo":"20","instrumentos":[6]}]},
+            {"link":"https://youtu.be/1bHiPt5C6ko","descricao":"aaaa","musicas":[{"idMusica":"88","segundo":"0","instrumentos":[15]}]},
+            {"link":"https://youtu.be/zPVwN7TT-xA","descricao":"Apre","musicas":[{"idMusica":"22","segundo":"0","instrumentos":[6]},{"idMusica":"46","segundo":"210","instrumentos":[6]},{"idMusica":"39","segundo":"510","instrumentos":[6]}]},
+            {"link":"https://youtu.be/VnWm6vFoTVw","descricao":"Show","musicas":[{"idMusica":"52","segundo":"90","instrumentos":[6]},{"idMusica":"22","segundo":"410","instrumentos":[6]},{"idMusica":"31","segundo":"610","instrumentos":[6]},{"idMusica":"63","segundo":"930","instrumentos":[6]}]},
+            {"link":"https://youtu.be/i-bu47QpWWc","descricao":"aaaa","musicas":[{"idMusica":"86","segundo":"0","instrumentos":[15]}]},
+            {"link":"https://youtu.be/ZAdxNk_FSRo","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,7]},{"idMusica":"64","segundo":"240","instrumentos":[6]}]}
             
         ]
     };
