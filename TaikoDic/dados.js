@@ -109,7 +109,8 @@ var bd =
             { id: 13, nome: "SHIME" },
             { id: 14, nome: "YOSAKOI" },
             { id: 15, nome: "CLIPE" },
-            { id: 16, nome: "TRADUCAO" }
+            { id: 16, nome: "TRADUCAO" },
+            { id: 17, nome: "SHISHI" }
         ],
         links: 
         [
@@ -502,7 +503,42 @@ var bd =
             {"link":"https://youtu.be/zPVwN7TT-xA","descricao":"Apre","musicas":[{"idMusica":"22","segundo":"0","instrumentos":[6]},{"idMusica":"46","segundo":"210","instrumentos":[6]},{"idMusica":"39","segundo":"510","instrumentos":[6]}]},
             {"link":"https://youtu.be/VnWm6vFoTVw","descricao":"Show","musicas":[{"idMusica":"52","segundo":"90","instrumentos":[6]},{"idMusica":"22","segundo":"410","instrumentos":[6]},{"idMusica":"31","segundo":"610","instrumentos":[6]},{"idMusica":"63","segundo":"930","instrumentos":[6]}]},
             {"link":"https://youtu.be/i-bu47QpWWc","descricao":"aaaa","musicas":[{"idMusica":"86","segundo":"0","instrumentos":[15]}]},
-            {"link":"https://youtu.be/ZAdxNk_FSRo","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,7]},{"idMusica":"64","segundo":"240","instrumentos":[6]}]}
+            {"link":"https://youtu.be/ZAdxNk_FSRo","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,7]},{"idMusica":"64","segundo":"240","instrumentos":[6]}]},
+            {"link":"https://youtu.be/VcSWHGYTWKg","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[10]}]},
+            {"link":"https://youtu.be/ql9bQtyrdu4","descricao":"Show","musicas":[{"idMusica":"24","segundo":"0","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/U8gVM-OEfyQ","descricao":"Apre","musicas":[{"idMusica":"9","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/ouPit8qthb4","descricao":"Apre","musicas":[{"idMusica":"62","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/kEsmjValZKo","descricao":"Apre","musicas":[{"idMusica":"68","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/F4jk_Z3ri5E","descricao":"Apre","musicas":[{"idMusica":"45","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/n9KIErwy5nM","descricao":"Apre","musicas":[{"idMusica":"67","segundo":"0","instrumentos":[13]}]},
+            {"link":"https://youtu.be/94UCm42S5Mo","descricao":"Apre","musicas":[{"idMusica":"58","segundo":"0","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/MVUS2LrotK8","descricao":"Show","musicas":[{"idMusica":"68","segundo":"0","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/GMFy9JQHz6s","descricao":"Show","musicas":[{"idMusica":"62","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/wuOjtTbrOlo","descricao":"Apre","musicas":[{"idMusica":"45","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/jy2CWvmUoCY","descricao":"Apre","musicas":[{"idMusica":"24","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/wkoQhUNXNZc","descricao":"Apre","musicas":[{"idMusica":"77","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/XUuetYJuVww","descricao":"Apre","musicas":[{"idMusica":"62","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/wnO8epDNP3Y","descricao":"Beisebol","musicas":[{"idMusica":"45","segundo":"0","instrumentos":[6,8,10]}]},
+            {"link":"https://youtu.be/UzqsDwBdvxo","descricao":"Apre","musicas":[{"idMusica":"85","segundo":"30","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/qjS75fqGS6g","descricao":"Apre","musicas":[{"idMusica":"45","segundo":"30","instrumentos":[6,10,17]}]},
+            {"link":"https://youtu.be/7b_59GqzPdo","descricao":"Apre","musicas":[{"idMusica":"27","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/C8fF_8zG2Ls","descricao":"Apre","musicas":[{"idMusica":"27","segundo":"0","instrumentos":[6,13]},{"idMusica":"47","segundo":"270","instrumentos":[6,13]}]},
+            {"link":"https://youtu.be/0T1p1G0s4Cc","descricao":"Apre","musicas":[{"idMusica":"73","segundo":"0","instrumentos":[7,10]}]},
+            {"link":"https://youtu.be/Y9T49BgwNTM","descricao":"Apre","musicas":[{"idMusica":"35","segundo":"0","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/3AoWl-G-nCo","descricao":"Apre","musicas":[{"idMusica":"61","segundo":"90","instrumentos":[6,10,13]},{"idMusica":"45","segundo":"390","instrumentos":[4,6,13]},{"idMusica":"83","segundo":"870","instrumentos":[6,13]}]},
+            {"link":"https://youtu.be/_CYkj_dkeh8","descricao":"Paredo","musicas":[{"idMusica":"60","segundo":"0","instrumentos":[6,10,13]},{"idMusica":"47","segundo":"100","instrumentos":[6,10,13]},{"idMusica":"41","segundo":"210","instrumentos":[6,10,13]},{"idMusica":"46","segundo":"580","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/Akee3PzmXSQ","descricao":"Apre","musicas":[{"idMusica":"27","segundo":"0","instrumentos":[6,7]},{"idMusica":"46","segundo":"270","instrumentos":[6,10]},{"idMusica":"36","segundo":"480","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/e_-CntslUyM","descricao":"Apre","musicas":[{"idMusica":"33","segundo":"0","instrumentos":[6,13]},{"idMusica":"63","segundo":"210","instrumentos":[6,10]},{"idMusica":"56","segundo":"480","instrumentos":[6,10,13]},{"idMusica":"46","segundo":"690","instrumentos":[6,10]},{"idMusica":"36","segundo":"900","instrumentos":[6,10,13]},{"idMusica":"45","segundo":"1080","instrumentos":[4,6,10,13]}]},
+            {"link":"https://youtu.be/cEeA7WGar4Q","descricao":"Letra","musicas":[{"idMusica":"33","segundo":"0","instrumentos":[16]}]},
+            {"link":"https://youtu.be/7jUhyJE1G0w","descricao":"Brasil","musicas":[{"idMusica":"45","segundo":"20","instrumentos":[4,6,10,13]},{"idMusica":"20","segundo":"270","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/ky_rAmh4xRM","descricao":"Apre","musicas":[{"idMusica":"53","segundo":"50","instrumentos":[6]}]},
+            {"link":"https://youtu.be/uQzTvEIkUiU","descricao":"Apre","musicas":[{"idMusica":"81","segundo":"0","instrumentos":[6]}]},
+            {"link":"https://youtu.be/hR0OKCUhtc8","descricao":"Apre","musicas":[{"idMusica":"45","segundo":"0","instrumentos":[1,4,6,10,13]},{"idMusica":"58","segundo":"260","instrumentos":[6,10,13]}]},
+            {"link":"https://youtu.be/TGX-I1Hbez8","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,10]}]},
+            {"link":"https://youtu.be/xJQVGrSxKjM","descricao":"Letra","musicas":[{"idMusica":"45","segundo":"0","instrumentos":[16]}]},
+            {"link":"https://youtu.be/yjcX3Ir0Nkg","descricao":"Letra","musicas":[{"idMusica":"57","segundo":"0","instrumentos":[16]}]},
+            {"link":"https://youtu.be/DyP_RiOPXGY","descricao":"Letra","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[16]}]},
+            {"link":"https://youtu.be/7gTX9_aDA6s","descricao":"Letra","musicas":[{"idMusica":"62","segundo":"0","instrumentos":[16]}]}
             
         ]
     };
