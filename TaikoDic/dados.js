@@ -90,6 +90,7 @@ var bd =
             { id: 87, nome: "ICHIGO MAITA" },
             { id: 88, nome: "HANA MATSURI" },
             { id: 89, nome: "DAN DAN" },
+            { id: 90, nome: "NADA SOU SOU" },
             
         ],
         instrumentos:
@@ -537,7 +538,7 @@ var bd =
             {"link":"https://youtu.be/TGX-I1Hbez8","descricao":"Apre","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[6,10]}]},
             {"link":"https://youtu.be/xJQVGrSxKjM","descricao":"Letra","musicas":[{"idMusica":"45","segundo":"0","instrumentos":[16]}]},
             {"link":"https://youtu.be/yjcX3Ir0Nkg","descricao":"Letra","musicas":[{"idMusica":"57","segundo":"0","instrumentos":[16]}]},
-            {"link":"https://youtu.be/DyP_RiOPXGY","descricao":"Letra","musicas":[{"idMusica":"46","segundo":"0","instrumentos":[16]}]},
+            {"link":"https://youtu.be/DyP_RiOPXGY","descricao":"Letra","musicas":[{"idMusica":"90","segundo":"0","instrumentos":[16]}]},
             {"link":"https://youtu.be/7gTX9_aDA6s","descricao":"Letra","musicas":[{"idMusica":"62","segundo":"0","instrumentos":[16]}]}
             
         ]
