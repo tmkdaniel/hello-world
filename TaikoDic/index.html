@@ -75,8 +75,7 @@
                 let retorno = "";
                 for (let  i = 0; i < lstCoreo.length; i++)
                 {
-                    //retorno += "<li><a style='margin-right: 25px;' href='" + lstCoreo[i].link + "'>" + lstCoreo[i].link + "</a><span>" + lstCoreo[i].descricao + "</span></li>";
-                    retorno += "<li><a style='margin-right: 25px;' href='" + lstCoreo[i].link + "'>" + lstCoreo[i].link + "</a><span>" + lstCoreo[i].descricao + "</span>";
+                    retorno += "<li><a style='margin-right: 25px;" + (lstCoreo[i].bom ? "color: green;" : "") + "' href='" + lstCoreo[i].link + "'>" + lstCoreo[i].link + "</a><span>" + lstCoreo[i].descricao + "</span>";
                     retorno += "<ul>";
                     for (let  j = 0; j < lstCoreo[i].musicas.length; j++)
                     {
