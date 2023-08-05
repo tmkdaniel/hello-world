@@ -81,6 +81,14 @@ var bd = {
       "nome": "DANJU KARIYUSHI"
     },
     {
+      "id": 100,
+      "nome": "DARANIHON"
+    },
+    {
+      "id": 98,
+      "nome": "DYNAMIC RYUKYU"
+    },
+    {
       "id": 20,
       "nome": "EGAO NO MAMA"
     },
@@ -249,6 +257,10 @@ var bd = {
       "nome": "RYU JIN"
     },
     {
+      "id": 97,
+      "nome": "RYUKYU"
+    },
+    {
       "id": 56,
       "nome": "RYUKYU ONDO"
     },
@@ -283,6 +295,10 @@ var bd = {
     {
       "id": 63,
       "nome": "SHINKANUCHA"
+    },
+    {
+      "id": 99,
+      "nome": "SHURAYOI"
     },
     {
       "id": 64,
@@ -409,6 +425,10 @@ var bd = {
     {
       "id": 6,
       "nome": "ODAIKO"
+    },
+    {
+      "id": 19,
+      "nome": "ODAIKO 2"
     },
     {
       "id": 7,
@@ -642,7 +662,7 @@ var bd = {
     {
       "link": "https://youtu.be/NlyaPF2zHS4",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 3,
@@ -1063,7 +1083,7 @@ var bd = {
     {
       "link": "https://youtu.be/RsOD8cMr5Ws",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 11,
@@ -1918,7 +1938,7 @@ var bd = {
     {
       "link": "https://youtu.be/CK8ytYRBbiI",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 26,
@@ -2371,7 +2391,7 @@ var bd = {
     {
       "link": "https://youtu.be/3hf8YvOjRa0",
       "descricao": "Brasil",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 32,
@@ -2599,7 +2619,7 @@ var bd = {
     {
       "link": "https://youtu.be/n9yo04iNmjk",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 36,
@@ -2714,7 +2734,7 @@ var bd = {
     {
       "link": "https://youtu.be/rmWPkQwj_fI",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 38,
@@ -4467,7 +4487,7 @@ var bd = {
     {
       "link": "https://youtu.be/CF7k7smFbj8",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 64,
@@ -4547,7 +4567,7 @@ var bd = {
     {
       "link": "https://youtu.be/i9ErY0HSMWI",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 65,
@@ -4603,7 +4623,7 @@ var bd = {
     {
       "link": "https://youtu.be/eOTWB4qcZGw",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 67,
@@ -4617,7 +4637,7 @@ var bd = {
     {
       "link": "https://youtu.be/A1CEAt0AQp8",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 68,
@@ -4764,7 +4784,7 @@ var bd = {
     {
       "link": "https://youtu.be/Irv2vweirvA",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 69,
@@ -5744,7 +5764,7 @@ var bd = {
     {
       "link": "https://youtu.be/HghKHPbEjHU",
       "descricao": "aaaa",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 82,
@@ -8511,7 +8531,7 @@ var bd = {
     {
       "link": "https://youtu.be/n9KIErwy5nM",
       "descricao": "Apre",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 67,
@@ -9245,7 +9265,7 @@ var bd = {
     {
       "link": "https://youtu.be/ZJShqyBqau0",
       "descricao": "",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 45,
@@ -9859,7 +9879,7 @@ var bd = {
     {
       "link": "https://youtu.be/7TzYtB7cONc",
       "descricao": "",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 11,
@@ -10087,7 +10107,7 @@ var bd = {
     {
       "link": "https://youtu.be/JhOJQzgs4zo",
       "descricao": "",
-      "bom": false,
+      "bom": true,
       "musicas": [
         {
           "idMusica": 63,
@@ -10141,6 +10161,2073 @@ var bd = {
           "segundo": 820,
           "instrumentos": [
             6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/n9kJ2nCIkoc",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 63,
+          "segundo": 30,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 80,
+          "segundo": 390,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 960,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 1110,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 29,
+          "segundo": 1380,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/l1_Cs_BQCJc",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 66,
+          "segundo": 10,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/DG2ZJHHC08I",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 1,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/D4J_A_WcfrE",
+      "descricao": "",
+      "bom": true,
+      "musicas": [
+        {
+          "idMusica": 83,
+          "segundo": 180,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 56,
+          "segundo": 480,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 17,
+          "segundo": 750,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 31,
+          "segundo": 1120,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 46,
+          "segundo": 1680,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 1900,
+          "instrumentos": [
+            2,
+            4,
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/oRhX0lFpYSo",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 35,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/L1iozEsdU68",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 44,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/YXnwxidyw9U",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 36,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/tiQ-X8xKGZQ",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 83,
+          "segundo": 280,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/SHNlDWhFnFs",
+      "descricao": "aaaa",
+      "bom": true,
+      "musicas": [
+        {
+          "idMusica": 86,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/YCH78CI931o",
+      "descricao": "",
+      "bom": true,
+      "musicas": [
+        {
+          "idMusica": 30,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/rlebDtrTYho",
+      "descricao": "",
+      "bom": true,
+      "musicas": [
+        {
+          "idMusica": 48,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 33,
+          "segundo": 300,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/Zc69tscNc84",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 63,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/c1QvavExzzg",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 96,
+          "segundo": 190,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 430,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 87,
+          "segundo": 680,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 62,
+          "segundo": 905,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 56,
+          "segundo": 1230,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/oJexHQLoUnE",
+      "descricao": "",
+      "bom": true,
+      "musicas": [
+        {
+          "idMusica": 68,
+          "segundo": 20,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 190,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 4,
+          "segundo": 360,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 8,
+          "segundo": 570,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 3,
+          "segundo": 770,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/hrXbK0dz3sc",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 33,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 215,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 59,
+          "segundo": 360,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 57,
+          "segundo": 660,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 975,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 1140,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/K7xnN1DPXHU",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 17,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/FRx-wh6ngRg",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 96,
+          "segundo": 0,
+          "instrumentos": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/9fTkMpNWg0I",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 96,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/_582AOMwpUc",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 0,
+          "instrumentos": [
+            4,
+            6
+          ]
+        },
+        {
+          "idMusica": 68,
+          "segundo": 270,
+          "instrumentos": [
+            4,
+            6,
+            13,
+            19
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 380,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 540,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 780,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/sQHILBgNEBw",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 61,
+          "segundo": 45,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 340,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 580,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 68,
+          "segundo": 820,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 920,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 54,
+          "segundo": 1130,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/2yVz26dTHJo",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 56,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/4puMJC68zRA",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 82,
+          "segundo": 140,
+          "instrumentos": [
+            6,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/TPv16hoQNGw",
+      "descricao": "criança shime",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 61,
+          "segundo": 25,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 470,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 730,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 29,
+          "segundo": 895,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/0Y-4NFp_tSY",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 45,
+          "segundo": 10,
+          "instrumentos": [
+            4,
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 8,
+          "segundo": 250,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 61,
+          "segundo": 445,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 750,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/D9NlIDt-XEU",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 75,
+          "segundo": 20,
+          "instrumentos": [
+            6,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/sjTz9OG2i7k",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 20,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/73Cwz8JohZw",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 68,
+          "segundo": 80,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 220,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 370,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 21,
+          "segundo": 700,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 20,
+          "segundo": 1010,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 61,
+          "segundo": 1410,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 73,
+          "segundo": 1930,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 2430,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 57,
+          "segundo": 2740,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/wcEURw0BraA",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 35,
+          "segundo": 20,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/EyuKsqyWAl4",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 57,
+          "segundo": 40,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/u5GpPKhWSBQ",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 63,
+          "segundo": 20,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/9rJ_Z-hu63Q",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 32,
+          "segundo": 50,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 18,
+          "segundo": 300,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 480,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 630,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 44,
+          "segundo": 800,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 62,
+          "segundo": 1060,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 46,
+          "segundo": 1380,
+          "instrumentos": [
+            10
+          ]
+        },
+        {
+          "idMusica": 83,
+          "segundo": 1690,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 46,
+          "segundo": 2000,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 61,
+          "segundo": 2340,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 80,
+          "segundo": 2640,
+          "instrumentos": [
+            10
+          ]
+        },
+        {
+          "idMusica": 25,
+          "segundo": 2880,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 3140,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 57,
+          "segundo": 3400,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 63,
+          "segundo": 3720,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 4220,
+          "instrumentos": [
+            4,
+            6,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/NIjhSDZedFo",
+      "descricao": "Show",
+      "bom": true,
+      "musicas": [
+        {
+          "idMusica": 32,
+          "segundo": 150,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 68,
+          "segundo": 550,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 4,
+          "segundo": 670,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 22,
+          "segundo": 1030,
+          "instrumentos": [
+            6,
+            11
+          ]
+        },
+        {
+          "idMusica": 46,
+          "segundo": 1300,
+          "instrumentos": [
+            6,
+            11
+          ]
+        },
+        {
+          "idMusica": 75,
+          "segundo": 1610,
+          "instrumentos": [
+            6,
+            12,
+            17
+          ]
+        },
+        {
+          "idMusica": 33,
+          "segundo": 2040,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 61,
+          "segundo": 2510,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 80,
+          "segundo": 3050,
+          "instrumentos": [
+            10
+          ]
+        },
+        {
+          "idMusica": 46,
+          "segundo": 3350,
+          "instrumentos": [
+            10
+          ]
+        },
+        {
+          "idMusica": 78,
+          "segundo": 3800,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 8,
+          "segundo": 4000,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 4190,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 4480,
+          "instrumentos": [
+            2,
+            4,
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 46,
+          "segundo": 4860,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/Qjtly_JJp1c",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 14,
+          "segundo": 20,
+          "instrumentos": [
+            1,
+            5
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 260,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 61,
+          "segundo": 680,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 80,
+          "segundo": 980,
+          "instrumentos": [
+            10
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 1280,
+          "instrumentos": [
+            4,
+            6,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/0oVbP2o8jKo",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/x4hZpeRExoE",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 27,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/7CllJD-Hohc",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 97,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/0USsC43Dh7c",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 40,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 96,
+          "segundo": 290,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/1U7fN9ubroc",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 96,
+          "segundo": 400,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/MiCh_JktY1s",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 10,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 96,
+          "segundo": 420,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/91Er2T-MJlo",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 98,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/vXDah01TpI0",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 55,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/ORP4jqnssuo",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 31,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/pG40vrjGqRo",
+      "descricao": "",
+      "bom": true,
+      "musicas": [
+        {
+          "idMusica": 45,
+          "segundo": 20,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 260,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 62,
+          "segundo": 440,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 63,
+          "segundo": 770,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 1190,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 51,
+          "segundo": 1440,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/vbyjSKZZJ1c",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 97,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/lTNRQKRw5vw",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 33,
+          "segundo": 10,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 220,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 370,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 31,
+          "segundo": 590,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 62,
+          "segundo": 930,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 1250,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/LSgTmKSyttI",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 31,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 320,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 590,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/XZlQlCf2UgM",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 8,
+          "segundo": 10,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 44,
+          "segundo": 200,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 63,
+          "segundo": 460,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 96,
+          "segundo": 800,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 33,
+          "segundo": 1040,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 1250,
+          "instrumentos": [
+            6,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/6bpjloEgB3g",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 0,
+          "instrumentos": [
+            4,
+            6
+          ]
+        },
+        {
+          "idMusica": 68,
+          "segundo": 280,
+          "instrumentos": [
+            4,
+            6,
+            13,
+            19
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 380,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 550,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 770,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/a4OErW7FjiQ",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 45,
+          "segundo": 10,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 56,
+          "segundo": 250,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 33,
+          "segundo": 710,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 920,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 8,
+          "segundo": 1740,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 61,
+          "segundo": 1920,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 51,
+          "segundo": 2220,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/JSu74O2phQ8",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 16,
+          "segundo": 40,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/vana102nCEY",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 18,
+          "segundo": 50,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 160,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 74,
+          "segundo": 230,
+          "instrumentos": [
+            6,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/yIf0Py8e8k4",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 45,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 240,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 33,
+          "segundo": 640,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 840,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 1570,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 77,
+          "segundo": 1790,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 51,
+          "segundo": 2260,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/k4fhJ7106Gw",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 33,
+          "segundo": 50,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 68,
+          "segundo": 270,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 370,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 62,
+          "segundo": 595,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 910,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/aIChuhffdmM",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 54,
+          "segundo": 10,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 21,
+          "segundo": 230,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/QAXZHCGVgSA",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 98,
+          "segundo": 15,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/ZbJGYlc3T8s",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 21,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/SYWGq3lPa8s",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 78,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/K3Jqe1jSfgg",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 78,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/a1VhDp12-qs",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 240,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 470,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 630,
+          "instrumentos": [
+            6,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/6a1JidWAku8",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 24,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/Ah3dVAdpJk4",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 97,
+          "segundo": 160,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 39,
+          "segundo": 380,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 530,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 45,
+          "segundo": 690,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/Ph-S2nwRxhI",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 45,
+          "segundo": 15,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 68,
+          "segundo": 260,
+          "instrumentos": [
+            6,
+            13
+          ]
+        },
+        {
+          "idMusica": 97,
+          "segundo": 360,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 54,
+          "segundo": 590,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 73,
+          "segundo": 805,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 47,
+          "segundo": 1250,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/MnWkSRjmfr0",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 45,
+          "segundo": 20,
+          "instrumentos": [
+            2,
+            6,
+            8
+          ]
+        },
+        {
+          "idMusica": 80,
+          "segundo": 265,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        },
+        {
+          "idMusica": 73,
+          "segundo": 500,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/JyQ80NFSnKc",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 53,
+          "segundo": 0,
+          "instrumentos": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/yR8SQpiVMFU",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 46,
+          "segundo": 0,
+          "instrumentos": [
+            6,
+            10,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "link": "https://youtu.be/GOadYkoxq7E",
+      "descricao": "",
+      "bom": false,
+      "musicas": [
+        {
+          "idMusica": 45,
+          "segundo": 20,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 33,
+          "segundo": 279,
+          "instrumentos": [
+            6,
+            10
+          ]
+        },
+        {
+          "idMusica": 64,
+          "segundo": 480,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 62,
+          "segundo": 660,
+          "instrumentos": [
+            6
+          ]
+        },
+        {
+          "idMusica": 24,
+          "segundo": 975,
+          "instrumentos": [
+            6,
+            10
           ]
         }
       ]
